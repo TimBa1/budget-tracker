@@ -43,7 +43,7 @@ export default function AddExpensesMode({
                             ref={amountRef}
                             type="number"
                             required 
-                            min={0} step={10} />
+                            min={0} step={50} />
                     </Form.Group>
 
                     <Form.Group className='mb-3' controlId='budget'>

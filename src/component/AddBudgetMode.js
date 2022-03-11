@@ -31,7 +31,7 @@ export default function AddBudgetMode({show, handleClose}) {
                   </Form.Group>
                   <Form.Group className='mb-3' controlId='name'>
                       <Form.Label>Max Spending</Form.Label>
-                      <Form.Control ref={maxRef} type="number" required min={0} step={10}/>
+                      <Form.Control ref={maxRef} type="number" required min={0} step={50}/>
                   </Form.Group>
                   <div className='d-flex justify-content-end'>
                       <Button variant="primary" type='submit'>Add</Button>
