@@ -28,18 +28,20 @@ function App() {
 }
   return (
     <>
-    <Container className="my-4">
+    <Container className="my-4 ">
       <Stack direction="horizontal" gap="2" className="mb-4">
         
-        <h1 className="me-auto">Budgets</h1>
+        <h1 className="me-auto">TimBa Budget App</h1>
         <Button variant="primary" onClick={()=>setShowAddBudgetModal(true)} >Add Budget</Button>
         <Button variant="outline-primary" onClick={openAddExpenseModal}>Add Expenses</Button>
-      </Stack>
-      <div
+        </Stack>
+        
+
+      <div className="tp"
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fill,minmax(300px,1fr))",
-          gap: "1rem",
+          gridTemplateColumns: "repeat(auto-fill,minmax(350px,1fr))",
+          gap: "2rem",
           alignItems: "flex=start",
         }}
         >

@@ -1,3 +1,8 @@
 
 
- 
+ body{
+    background:linear-gradient(to left, rgb(58, 58, 132), rgb(172, 95, 95));
+ }
+ #tp{
+    background-color: rgb(140, 129, 226);
+ }

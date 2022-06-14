@@ -10,7 +10,7 @@ function BudgetCard({ name, amount, max, gray,onAddExpenseClick,hideButtons,onVi
     }
     return (
         
-        <Card className={classNames.join(" ")}>
+        <Card className={classNames.join(" ")} id="tp">
             <Card.Body>
                 <Card.Title 
                     className=" d-flex justify-content-between align-items-baseline fw-normal mb-3">
